@@ -12,7 +12,9 @@ This layer integrates [[https://github.com/doublep/logview][logview]] within Spa
 
 * Install
 ** Layer
-To use this contribution add it to your =~/.spacemacs=
+To use this contribution add it to your =~/.spacemacs=, set
+=dotspacemacs-configuration-layer-path= to point to the upper folder
+where this project is located.
 
 #+BEGIN_SRC emacs-lisp
   (setq-default dotspacemacs-configuration-layers '(logview))
