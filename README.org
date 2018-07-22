@@ -1,0 +1,25 @@
+#+TITLE: logview layer
+
+* Table of Contents                                       :TOC_4_gh:noexport:
+- [[#description][Description]]
+- [[#install][Install]]
+  - [[#layer][Layer]]
+- [[#key-bindings][Key Bindings]]
+
+* Description
+This layer integrates [[https://github.com/doublep/logview][logview]] within Spacemacs.
+
+
+* Install
+** Layer
+To use this contribution add it to your =~/.spacemacs=
+
+#+BEGIN_SRC emacs-lisp
+  (setq-default dotspacemacs-configuration-layers '(logview))
+#+END_SRC
+
+* Key Bindings
+
+| Key Binding | Description |
+|-------------+-------------|
+| ~SPC m ~    |             |
