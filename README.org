@@ -5,6 +5,9 @@
 - [[#install][Install]]
   - [[#layer][Layer]]
 - [[#key-bindings][Key Bindings]]
+  -  [[#narrowing-and-widening][Narrowing and widening]]
+  -  [[#filtering-by-level][Filtering by level]]
+  - [[#movement][Movement]]
 
 * Description
 This layer integrates [[https://github.com/doublep/logview][logview]] within Spacemacs.
@@ -22,17 +25,23 @@ where this project is located.
 
 * Key Bindings
 
+**  Narrowing and widening
+
+| Key Binding | Description             |
+|-------------+-------------------------|
+| ~SPC m n f~ | Narrow from this entry  |
+| ~SPC m n u~ | Narrow up to this entry |
+| ~SPC m w u~ | Widen upwards           |
+| ~SPC m w d~ | Widen downwards         |
+
+**  Filtering by level
 | Key Binding | Description                                       |
 |-------------+---------------------------------------------------|
-| ~SPC m n f~ | Narrow from this entry                            |
-| ~SPC m n u~ | Narrow up to this entry                           |
-| ~SPC m w u~ | Widen upwards                                     |
-| ~SPC m w d~ | Widen downwards                                   |
 | ~SPC m l e~ | Show only errors                                  |
 | ~SPC m l w~ | Show errors and warnings                          |
 | ~SPC m l i~ | Show errors warnings and information              |
 | ~SPC m l d~ | Show errors warnings information and debug        |
-| ~SPC m l t~ | Show all levels                                   |
+| ~SPC m l a~ | Show all levels                                   |
 | ~SPC m l +~ | Show only important                               |
 | ~SPC m L e~ | Always show errors                                |
 | ~SPC m L w~ | Always show errors and warnings                   |
@@ -40,7 +49,9 @@ where this project is located.
 | ~SPC m L d~ | Always show errors warnings information and debug |
 | ~SPC m L L~ | Disable unconditional show                        |
 
-A transient-state is also defined, start it with ~SPC m .~ or ~, .~
+** Movement
+A transient-state has been defined for cursor movement, start it with
+~SPC m .~ or ~, .~
 
 | Key Binding | Description                                                            |
 |-------------+------------------------------------------------------------------------|
