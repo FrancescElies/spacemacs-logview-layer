@@ -40,15 +40,15 @@ To use this contribution add it to your =~/.spacemacs=
 
 A transient-state is also defined, start it with ~SPC m .~ or ~, .~
 
-| Key Binding | Description                                                         |
-|-------------+---------------------------------------------------------------------|
-| ~n~         | Next entry                                                          |
-| ~p~         | Previous entry                                                      |
-| ~N~         | Next entry of level equal or higher than that of the current entry |
+| Key Binding | Description                                                            |
+|-------------+------------------------------------------------------------------------|
+| ~n~         | Next entry                                                             |
+| ~p~         | Previous entry                                                         |
+| ~N~         | Next entry of level equal or higher than that of the current entry     |
 | ~P~         | Previous entry of level equal or higher than that of the current entry |
-| ~M-n~       | Next entry respecting navigation view filters                  |
-| ~M-p~       | Previous entry respecting navigation view filters                              |
-| ~<~         | First entry                                                        |
-| ~>~         | Last entry                                                         |
-| ~q~         | Quit                                                                |
-| ~<escape>~  | Quit                                                                |
+| ~M-n~       | Next entry respecting navigation view filters                          |
+| ~M-p~       | Previous entry respecting navigation view filters                      |
+| ~<~         | First entry                                                            |
+| ~>~         | Last entry                                                             |
+| ~q~         | Quit                                                                   |
+| ~<escape>~  | Quit                                                                   |
