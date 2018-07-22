@@ -55,27 +55,16 @@
         "wu"   'logview-widen-upwards
         "wd"   'logview-widen-downwards
         ;; Filtering by level commands.
-        "l1" 'logview-show-only-errors
         "le" 'logview-show-only-errors
-        "l2" 'logview-show-errors-and-warnings
         "lw" 'logview-show-errors-and-warnings
-        "l3" 'logview-show-errors-warnings-and-information
         "li" 'logview-show-errors-warnings-and-information
-        "l4" 'logview-show-errors-warnings-information-and-debug
         "ld" 'logview-show-errors-warnings-information-and-debug
-        "l5" 'logview-show-all-levels
-        "lt" 'logview-show-all-levels
-        "+"   'logview-show-only-as-important
+        "la" 'logview-show-all-levels
         "l+" 'logview-show-only-as-important
-        "L1" 'logview-always-show-errors
         "Le" 'logview-always-show-errors
-        "L2" 'logview-always-show-errors-and-warnings
         "Lw" 'logview-always-show-errors-and-warnings
-        "L3" 'logview-always-show-errors-warnings-and-information
         "Li" 'logview-always-show-errors-warnings-and-information
-        "L4" 'logview-always-show-errors-warnings-information-and-debug
         "Ld" 'logview-always-show-errors-warnings-information-and-debug
-        "L0" 'logview-disable-unconditional-show
         "LL" 'logview-disable-unconditional-show
         ;; ;; Filtering by name/thread/message commands.
         ;; ("f"   logview-edit-filters)
