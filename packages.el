@@ -38,16 +38,6 @@
       (spacemacs/declare-prefix-for-mode 'logview-mode "mv" "yank")
       (spacemacs/set-leader-keys-for-major-mode 'logview-mode
 
-        ;; Movement commands.
-        ;; "TAB" 'logview-go-to-message-beginning
-        ;; "n"   'logview-next-entry
-        ;; "p"   'logview-previous-entry
-        ;; "N"   'logview-next-as-important-entry
-        ;; "P"   'logview-previous-as-important-entry
-        ;; "M-n" 'logview-next-navigation-view-entry
-        ;; "M-p" 'logview-previous-navigation-view-entry
-        ;; "<"   'logview-first-entry
-        ;; ">"   'logview-last-entry
         ;; Narrowing/widening commands.
         "nf"   'logview-narrow-from-this-entry
         "nu"   'logview-narrow-up-to-this-entry
