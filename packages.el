@@ -56,6 +56,8 @@
         "Li" 'logview-always-show-errors-warnings-and-information
         "Ld" 'logview-always-show-errors-warnings-information-and-debug
         "LL" 'logview-disable-unconditional-show
+
+        ;; TODO:  see below for commands to be added
         ;; ;; Filtering by name/thread/message commands.
         ;; ("f"   logview-edit-filters)
         ;; ("a"   logview-add-include-name-filter)
